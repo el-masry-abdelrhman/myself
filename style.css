@@ -1,23 +1,26 @@
 body {
+    background-color: black;
     padding:0;
     margin:0;
-    background-color: black;
 }
 .titre{
-    margin-left: 250px;
-    font-size: 50px;
+    margin-left: 18%;
+    font-size: 300%;
     text-align: center;
     color:white;
 }
+
 nav {
     text-align : center;
     font-size : 100%;
-    margin-bottom: 80px;
+    border:solid;
+    border-radius: 2px;
+    border-color: white;
    
 }
 nav_plan{
     text-align : center;
-    font-size : 25px;
+    font-size : 100%;
     margin-bottom: 80px;
    
 }
@@ -25,16 +28,13 @@ nav_plan{
 ul {
     display:flex;
     justify-content: space-around;
-    border-radius: 2px;
-    border-color: white;
-    border:solid;
+   
 }
 
 .plan {
     
     display:flex;
     justify-content: space-around;
-    border-radius: 2px;
     border-color: white;
 }
 
@@ -57,6 +57,37 @@ nav ul li a:hover{
 /* fin du header */
 /* images */
 .image {
-    height: 100%;
+    height: 50%;
     width: 50%
 }
+
+/*fin image*/
+
+/*Début acceuil*/
+
+.acceuil{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.parcours{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+    background-color: white;
+}
+
+.parcoursgauche{
+    width: 60%;
+    margin-right:10px;
+}
+
+.parcoursimage{
+    margin: top 2%;
+    float: right;
+}
+
+/*fin acceuil*/
