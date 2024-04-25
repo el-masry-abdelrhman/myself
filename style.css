@@ -15,6 +15,12 @@ nav {
     margin-bottom: 80px;
    
 }
+nav_plan{
+    text-align : center;
+    font-size : 25px;
+    margin-bottom: 80px;
+   
+}
 
 ul {
     display:flex;
