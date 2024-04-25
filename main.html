@@ -11,7 +11,7 @@
             
             <nav>
                 <ul>
-                    <li><a href="#acceuil">Accueil</a></li>
+                    <li><a href="#acceuil">Accueil</a></li> 
                     <li><a href="#education">Education</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="Abdelrhman El Masry CV.pdf" download="Abdelrhman El Masry CV.pdf">Download CV</a></li>
@@ -21,12 +21,22 @@
         </header>
         <nav_plan>
             <div class="plan">
-            <h1 class="titre">Abdelrhman El Masry<br><br>
-                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="abdelrhman-el-masry" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/abdelrhman-el-masry/en?trk=profile-badge"></a></div>
+            <h1 class="titre">Abdelrhman <br>El Masry<br>
+                <br><div style="font-size: 30%; text-align: left; font-weight:normal; font-style: italic;">Etudiant en école d'ingénieur en mathématiques appliquées. 
+                    <br>Junior Data Engineer</div>
+                    <!--
+                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="abdelrhman-el-masry" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/abdelrhman-el-masry/en?trk=profile-badge"></a></div>
+                    -->
             </h1>
+           
+            <img src="data.gif" class="image">
+            
             </div>
         </nav_plan>
+        <button onclick="scrollDown()" class="scroll-btn">
+            <span>&#8595;</span> <!-- Flèche vers le bas -->
+        </button>
     
     <div class = "acceuil" id="acceuil">
         <h1>Bonjour et bienvenue sur mon site</h1>
@@ -48,9 +58,49 @@
         </div>
     </section>
     
+
+      
+    <div class = "education" id="education">
+        <h1 style="text-align:center;">Mes études</h1>
+    </div>
+    <section class="parcours">
+        <div class = "parcoursgauche">
+            <p>
+                
+            </p>
+        </div>
+
+        <div class ="parcoursimage">
+            <img src="etudes.png", width="310px"
+                style = "border-radius : 30px;">
+        </div>
+    </section>
+
+
+    <div class = "experiences" id="experiences">
+        <h1 style="text-align:center;">Expériences</h1>
+    </div>
+    <section class="parcours">
+        <div class = "parcoursgauche">
+            <p>
+                
+            </p>
+        </div>
+
+        <div class ="parcoursimage">
+            <img src="exp.png", width="310px"
+                style = "border-radius : 30px;">
+        </div>
+    </section>
     
+
+    <script src="script.js"></script>
     </body>
 
 
     
 </html>
+
+
+    
+
