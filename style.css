@@ -2,6 +2,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding:0;
     margin:0;
+    width: auto;
     
 }
 .titre{
@@ -11,12 +12,17 @@ body {
     color:rgb(0, 0, 0);
 }
 
+
+.titre:hover{
+    font-weight:bold;
+    color:rgb(48, 48, 48);
+}
+
 nav {
     border: solid;
     border-radius: 30px;
     font-size : 115%;
     margin-left: 0%;
-    
     
    
 }
@@ -24,6 +30,7 @@ nav_plan{
     text-align : center;
     font-size : 100%;
     margin-bottom: 10%;
+    width:auto;
    
 }
 
@@ -105,7 +112,7 @@ nav ul li a:hover{
 
 /* Styles pour le bouton de défilement */
 .scroll-btn {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -119,4 +126,14 @@ nav ul li a:hover{
   
   .scroll-btn span {
     font-size: 24px;
+  }
+
+  .lien {
+    text-decoration: none; /* Pour supprimer le soulignement par défaut des liens */
+    color: blue; /* Couleur par défaut du texte du lien */
+    transition: color 0.3s; /* Animation de transition pour un changement fluide de couleur */
+  }
+  
+  .lien:hover {
+    color: darkblue; /* Couleur du texte lorsque le lien est survolé */
   }
