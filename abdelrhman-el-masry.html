@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial scale =1">
         <title>Abdelrhman El Masry</title> 
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" type="image/png" href="icon.png"/>
     </head>
     <body>
         <header>
@@ -14,32 +13,38 @@
                 <ul>
                     <li><a href="#acceuil">Accueil</a></li> 
                     <li><a href="#education">Education</a></li>
+                    <li><a href="#projets">Projets</a></li>
                     <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="Abdelrhman El Masry CV.pdf" download="Abdelrhman El Masry CV.pdf">Download CV</a></li>
+                    <!--<li><a href="Abdelrhman El Masry CV.pdf" download="Abdelrhman El Masry CV.pdf">Download CV</a></li>-->
                     </a>
                 </ul>
             </nav>
+
+            
         </header>
+
         <nav_plan>
-            <div class="plan">
+            <div class="plan" href="https://www.linkedin.com/in/abdelrhman-el-masry/">
             <h1 class="titre">Abdelrhman <br>El Masry<br>
                 <br><div style="font-size: 30%; text-align: left; font-weight:normal; font-style: italic;">Etudiant en école d'ingénieur en mathématiques appliquées. 
-                    <br>Junior Data Engineer</div>
-                    <!--
-                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="abdelrhman-el-masry" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/abdelrhman-el-masry/en?trk=profile-badge"></a></div>
-                    -->
-            </h1>
+                    <br>Junior Data Engineer</div> <br>
+                    
+                        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+                        <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" style="margin-left: 20%;"  data-theme="light" data-type="VERTICAL" data-vanity="abdelrhman-el-masry" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/abdelrhman-el-masry?trk=profile-badge"></a></div>
+                   
+                    </h1>
            
-            <img src="data.gif" class="image">
-            
+                   
+            <img src="images/data.gif" class="image">
+          
             </div>
         </nav_plan>
+
         <button onclick="scrollDown()" class="scroll-btn">
             <span>&#8595;</span> <!-- Flèche vers le bas -->
         </button>
     
-    <div class = "acceuil" id="acceuil">
+    <div style="border:solid;" class = "acceuil" id="acceuil">
         <h1>Bonjour et bienvenue sur mon site</h1>
     </div>
     <section class="parcours">
@@ -54,7 +59,7 @@
         </div>
 
         <div class ="parcoursimage">
-            <img src="cytech.png", width="310px"
+            <img src="images/cytech.png", width="310px"
                 style = "border-radius : 30px;">
         </div>
     </section>
@@ -62,36 +67,98 @@
 
       
     <div class = "education" id="education">
-        <h1 style="text-align:center;">Mes études</h1>
+        <h1 style="text-align:center; border: solid; background-color: rgba(189, 181, 181, 0.197);">Mes études</h1>
     </div>
     <section class="parcours">
-        <div class = "parcoursgauche">
+
+        <div class ="parcoursimage">
+            <img src="images/etudes.png", width="310px"
+                style = "border-radius : 30px;">
+        </div>
+
+        <div class = "parcoursgauche" style="text-align : left;">
+            <h2>Ingénieur en mathématiques appliquées</h2>
             <p>
-                
+                <div style="font-weight:bold;">CY-Tech</div>Cergy 2021-2024 <br>
+            </p>
+            <h2>CPGE MPSI/MP</h2>
+            <p>
+                <div style="font-weight:bold;">Lycée Albert Schweitzer</div>Le Raincy 2019-2021
             </p>
         </div>
 
-        <div class ="parcoursimage">
-            <img src="etudes.png", width="310px"
-                style = "border-radius : 30px;">
-        </div>
+       
     </section>
 
 
-    <div class = "experiences" id="experiences">
-        <h1 style="text-align:center;">Expériences</h1>
+    <div class = "Projets" id="projets">
+        
+        <h1 style="text-align:center;border: solid; background-color: rgba(189, 181, 181, 0.197);">Projets</h1>
     </div>
     <section class="parcours">
+
+        <div class ="parcoursimage">
+            <img src="images/projets.png", width="310px"
+                style = "border-radius : 30px;">
+        </div>
+
         <div class = "parcoursgauche">
+            <a class="lien" href="https://github.com/el-masry-abdelrhman/House-price-prediction-model"><h2 >House pricing prediction model</h2></a>
             <p>
-                
+                - cleaning of the data<br>
+                - choosing arguments<br>
+                - selection of the model<br>
+                - searching hyperparameters
+            </p>
+
+
+            <a class="lien" href="https://github.com/el-masry-abdelrhman/Handwritten-Digit-Recognition-in-python"><h2 >Handwritten-Digit-Recognition-in-python</h2></a>
+            <p>
+                - Model selection<br>
+                - Model testing<br>
+                - searching hyperparameters<br>
+                - analysing model errors
+            </p>
+
+            
+            <a class="lien" href="https://github.com/el-masry-abdelrhman/Long-Short-Term-Memory-LSTM-pour-la-prediction-du-prix-d-un-actif-en-python"><h2>LSTM for the prediction of assets price at J+1</h2></a>
+            <p>
+                - Data processing<br>
+                - LSTM modeling<br>
+                - Model evaluation<br>
+                - Hyperparameter tuning
+            </p>
+
+            
+            <a class="lien" href="https://github.com/el-masry-abdelrhman/Optimisation-de-protefeuille-de-Markowitz-et-application-en-Python"><h2>Markowitz Portfolio Optimization and Application in Python</h2></a>
+            <p>
+            </p>
+
+        </div>
+        
+       
+    </section>
+
+
+
+    <div class = "experiences" id="experiences">
+        <h1 style="text-align:center; border: solid; background-color: rgba(189, 181, 181, 0.197);">Expériences</h1>
+    </div>
+    <section class="parcours">
+
+        <div class ="parcoursimage">
+            <img src="images/exp.png", width="310px"
+                style = "border-radius : 30px;">
+        </div>
+
+        <div class = "parcoursgauche">
+            <h2>Data engineer / Actuaire</h2>
+            <p>
+                <div style="font-weight:bold;">CAAREA</div>La Defense<br> 04/2023 - Aujourd'hui <br>
             </p>
         </div>
 
-        <div class ="parcoursimage">
-            <img src="exp.png", width="310px"
-                style = "border-radius : 30px;">
-        </div>
+       
     </section>
     
 
@@ -101,7 +168,3 @@
 
     
 </html>
-
-
-    
-
